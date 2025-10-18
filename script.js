@@ -7,3 +7,10 @@ function getComputerChoice(){
     return "scissors";}
     //test
 console.log("computer choice:", getComputerChoice());
+//getHumanChoice
+function getHumanChoice(){
+    let input=prompt("Enter rock,paper or scissors:");
+    if(!input) return null;
+    return input.toLowerCase();
+
+}
